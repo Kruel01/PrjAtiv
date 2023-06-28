@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yuri.njesus\\.nuget\\packages\\": {}
+    "C:\\Users\\moises.aboliveira\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yuri.njesus\\source\\repos\\Yuri\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj",
+      "projectUniqueName": "C:\\Users\\moises.aboliveira\\Source\\Repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj",
       "projectName": "pjrAtiv",
-      "projectPath": "C:\\Users\\yuri.njesus\\source\\repos\\Yuri\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj",
-      "packagesPath": "C:\\Users\\yuri.njesus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yuri.njesus\\source\\repos\\Yuri\\pjrAtiv\\pjrAtiv\\obj\\",
+      "projectPath": "C:\\Users\\moises.aboliveira\\Source\\Repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj",
+      "packagesPath": "C:\\Users\\moises.aboliveira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moises.aboliveira\\Source\\Repos\\pjrAtiv\\pjrAtiv\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yuri.njesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\moises.aboliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
