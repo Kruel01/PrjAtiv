@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moises.aboliveira\\Source\\Repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj": {}
+    "C:\\Users\\moises.aboliveira\\source\\repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moises.aboliveira\\Source\\Repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj": {
+    "C:\\Users\\moises.aboliveira\\source\\repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moises.aboliveira\\Source\\Repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj",
+        "projectUniqueName": "C:\\Users\\moises.aboliveira\\source\\repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj",
         "projectName": "pjrAtiv",
-        "projectPath": "C:\\Users\\moises.aboliveira\\Source\\Repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj",
+        "projectPath": "C:\\Users\\moises.aboliveira\\source\\repos\\pjrAtiv\\pjrAtiv\\pjrAtiv.csproj",
         "packagesPath": "C:\\Users\\moises.aboliveira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moises.aboliveira\\Source\\Repos\\pjrAtiv\\pjrAtiv\\obj\\",
+        "outputPath": "C:\\Users\\moises.aboliveira\\source\\repos\\pjrAtiv\\pjrAtiv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moises.aboliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",

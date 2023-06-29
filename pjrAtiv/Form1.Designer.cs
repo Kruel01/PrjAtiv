@@ -43,13 +43,14 @@
             btnVoltar = new Button();
             imageList1 = new ImageList(components);
             btnCriarAcesso = new Button();
+            menuStrip1 = new MenuStrip();
             SuspendLayout();
             // 
             // lblLogin
             // 
             lblLogin.AutoSize = true;
             lblLogin.Font = new Font("Arial Rounded MT Bold", 17.25F, FontStyle.Regular, GraphicsUnit.Point);
-            lblLogin.Location = new Point(14, 22);
+            lblLogin.Location = new Point(14, 24);
             lblLogin.Margin = new Padding(5, 0, 5, 0);
             lblLogin.Name = "lblLogin";
             lblLogin.Size = new Size(217, 27);
@@ -192,6 +193,16 @@
             btnCriarAcesso.UseVisualStyleBackColor = true;
             btnCriarAcesso.Click += btnCriarAcesso_Click;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(894, 24);
+            menuStrip1.TabIndex = 16;
+            menuStrip1.Text = "menuStrip1";
+            menuStrip1.Visible = true;
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -210,6 +221,9 @@
             Controls.Add(lblMensagem);
             Controls.Add(txtCpf);
             Controls.Add(lblLogin);
+            Controls.Add(menuStrip1);
+            IsMdiContainer = true;
+            MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Jukas Bank - Login";
             Load += Form1_Load;
@@ -231,5 +245,6 @@
         private Button btnVoltar;
         private ImageList imageList1;
         private Button btnCriarAcesso;
+        private MenuStrip menuStrip1;
     }
 }

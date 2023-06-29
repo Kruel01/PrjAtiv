@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using pjrAtiv;
+
 
 namespace pjrAtiv
 {
@@ -15,6 +17,7 @@ namespace pjrAtiv
         public TelaMenu()
         {
             InitializeComponent();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,6 +33,7 @@ namespace pjrAtiv
         private void button1_Click(object sender, EventArgs e)
         {
             TelaDeposito telaDeposito = new TelaDeposito();
+            
             this.Close();
             telaDeposito.Show();
         }
@@ -43,16 +47,24 @@ namespace pjrAtiv
         {
             Form1 form = new Form1();
             form.Close();
+           
         }
 
         private void btnSacar_Click(object sender, EventArgs e)
         {
             TelaSaque telaSaque = new TelaSaque();
-            this.Close();
+            this.ActivateMdiChild(telaSaque);
             telaSaque.Show();
+            this.Hide();
+            
         }
 
         private void btnConfig_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TelaMenu_Load(object sender, EventArgs e)
         {
 
         }

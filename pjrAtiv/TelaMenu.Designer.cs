@@ -154,6 +154,7 @@
             Controls.Add(lblNomeCliente);
             Name = "TelaMenu";
             Text = "TelaMenu";
+            Load += TelaMenu_Load;
             ResumeLayout(false);
             PerformLayout();
         }
