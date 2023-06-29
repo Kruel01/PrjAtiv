@@ -7,15 +7,15 @@ namespace pjrAtiv
         public Form1()
         {
             InitializeComponent();
-            Colisao();
-            menuStrip1.Visible = false;
+
+
         }
 
         TelaMenu telaMenu = new TelaMenu();
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -75,26 +75,14 @@ namespace pjrAtiv
         private void btnCriarAcesso_Click(object sender, EventArgs e)
         {
 
-            
-            telaMenu.MdiParent = this;
-            txtCelular.Visible = false;
-            txtCpf.Visible = false;
-            txtDataNasc.Visible = false;
-            txtNomeCliente.Visible = false;
-            txtEmail.Visible = false;
-            txtSenha.Visible = false;
-            txtConfirmaSenha.Visible = false;
-            txtDataNasc.Visible = false;
-            txtGenero.Visible = false;
-            lblLogin.Visible = false;
-            btnCriarAcesso.Visible = false;
-            btnVoltar.Visible = false;
-            lblMensagem.Visible = false;
 
-            
-            
-            telaMenu.Show();
-            
+
+
+
+
+
+            MessageBox.Show("Cadastro criado");
+
 
 
 
@@ -142,9 +130,13 @@ namespace pjrAtiv
 
         public void Colisao()
         {
+
+            int reposition;
+            reposition = 12;
             if (telaMenu.Height >= this.MaximumSize.Height)
             {
-                telaMenu.Height = telaMenu.Height-1;
+                telaMenu.Height -= reposition;
+
 
 
 
@@ -152,6 +144,28 @@ namespace pjrAtiv
 
 
         }
-        
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+        public void Esconder()
+        {
+            txtCelular.Visible = false;
+            txtCpf.Visible = false;
+            txtDataNasc.Visible = false;
+            txtNomeCliente.Visible = false;
+            txtEmail.Visible = false;
+            txtSenha.Visible = false;
+            txtConfirmaSenha.Visible = false;
+            txtDataNasc.Visible = false;
+            txtGenero.Visible = false;
+            lblLogin.Visible = false;
+            btnCriarAcesso.Visible = false;
+            btnVoltar.Visible = false;
+            lblMensagem.Visible = false;
+
+
+        }
     }
 }
