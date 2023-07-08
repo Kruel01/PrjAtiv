@@ -40,14 +40,9 @@ namespace pjrAtiv
 
         private void txtLogin_TextChanged(object sender, EventArgs e)
         {
-            long n;
-            bool isNumeric = long.TryParse(txtCpf.Text, out n);
-            if (isNumeric == false)
-            {
 
 
 
-            }
 
 
         }
