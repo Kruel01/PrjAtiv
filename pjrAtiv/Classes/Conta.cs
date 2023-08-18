@@ -13,7 +13,7 @@ namespace pjrAtiv.Classes
         public int IdCliente { get; set; }
 
         public double Saldo { get; set; }
-        public string Status { get; set; }
+        public string? Status { get; set; }
         public double Limite { get; set; }
 
         public DateTime DataAbertura { get; set; }
@@ -25,5 +25,16 @@ namespace pjrAtiv.Classes
             
         
         }
+        public delegate void teste(int conta);
+        public double Depositar(double ValorDeposito) 
+        {
+
+            this.Saldo += ValorDeposito;
+            return this.Saldo;
+        
+        
+        
+        }
+        
     }
 }
