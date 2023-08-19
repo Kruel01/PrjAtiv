@@ -37,6 +37,7 @@
             // 
             TxtNome.Location = new Point(34, 66);
             TxtNome.Name = "TxtNome";
+            TxtNome.PlaceholderText = "Email ou CPF";
             TxtNome.Size = new Size(175, 23);
             TxtNome.TabIndex = 0;
             TxtNome.TextChanged += TxtNome_TextChanged;
@@ -45,8 +46,10 @@
             // 
             TxtSenha.Location = new Point(34, 125);
             TxtSenha.Name = "TxtSenha";
+            TxtSenha.PlaceholderText = "Senha";
             TxtSenha.Size = new Size(175, 23);
             TxtSenha.TabIndex = 1;
+            TxtSenha.UseSystemPasswordChar = true;
             // 
             // Btn_Login
             // 
@@ -54,7 +57,7 @@
             Btn_Login.Name = "Btn_Login";
             Btn_Login.Size = new Size(75, 23);
             Btn_Login.TabIndex = 2;
-            Btn_Login.Text = "button1";
+            Btn_Login.Text = "Login";
             Btn_Login.UseVisualStyleBackColor = true;
             Btn_Login.Click += Btn_Login_Click;
             // 

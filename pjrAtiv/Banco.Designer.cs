@@ -58,14 +58,14 @@
             // loginToolStripMenuItem
             // 
             loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            loginToolStripMenuItem.Size = new Size(180, 22);
+            loginToolStripMenuItem.Size = new Size(121, 22);
             loginToolStripMenuItem.Text = "Login";
             loginToolStripMenuItem.Click += loginToolStripMenuItem_Click;
             // 
             // cadastroToolStripMenuItem
             // 
             cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            cadastroToolStripMenuItem.Size = new Size(180, 22);
+            cadastroToolStripMenuItem.Size = new Size(121, 22);
             cadastroToolStripMenuItem.Text = "Cadastro";
             cadastroToolStripMenuItem.Click += cadastroToolStripMenuItem_Click;
             // 
@@ -104,6 +104,7 @@
             MainMenuStrip = menuStrip1;
             Name = "Banco";
             Text = "Banco";
+            Load += Banco_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -112,10 +113,10 @@
 
         #endregion
 
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem contaToolStripMenuItem;
-        private ToolStripMenuItem loginToolStripMenuItem;
-        private ToolStripMenuItem cadastroToolStripMenuItem;
+        public MenuStrip menuStrip1;
+        public ToolStripMenuItem contaToolStripMenuItem;
+        public ToolStripMenuItem loginToolStripMenuItem;
+        public ToolStripMenuItem cadastroToolStripMenuItem;
         private ToolStripMenuItem operaçõesToolStripMenuItem;
         private ToolStripMenuItem depositoToolStripMenuItem;
         private ToolStripMenuItem transferenciaToolStripMenuItem;

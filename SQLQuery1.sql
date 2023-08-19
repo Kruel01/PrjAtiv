@@ -112,5 +112,5 @@ Alter table TipoOperações add constraint Tipo_Transferencia check (NomeOperaca
 Alter table Agendamento alter column ValorAgendamento decimal (10,2);
 /*drop table Agendamento, Cliente, Conta, TiopOperações, Transferencia;*/
 
-
+select * from Cliente
 

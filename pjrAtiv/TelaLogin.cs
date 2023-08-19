@@ -22,7 +22,7 @@ namespace pjrAtiv
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             InitializeComponent();
         }
-
+        
         private void TxtNome_TextChanged(object sender, EventArgs e)
         {
 
@@ -32,16 +32,19 @@ namespace pjrAtiv
         {
             
             Conta conta = new Conta();
-
-            if (TxtNome.Text == "abc" && TxtSenha.Text == "abc")
+            Banco f = this.MdiParent as Banco;
+            // ParentForm.MainMenuStrip.Items["loginToolStripMenuItem"].Text = "teste";
+            ParentForm.MainMenuStrip.Items.Add("teste");
+            Control[] controls = this.MdiParent.Controls.Find("menuStrip1", true);
+            foreach (Control control in controls) 
             {
+                if (control.Name == "menuStrip1")
+                {
+                    MenuStrip strip = control as MenuStrip;
+                    //strip.Items["loginToolStripMenuItem"].Enabled = false;
+                    
 
-                MessageBox.Show("Logou");
-
-            }
-            else
-            {
-                MessageBox.Show("Não logou");
+                }
             }
         }
 
